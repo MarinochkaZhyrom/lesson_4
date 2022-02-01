@@ -1,0 +1,131 @@
+
+
+@import "null.css";
+
+
+@font-face {
+	font-family: "Chakra Petch";
+	src: url("../fonts/ChakraPetch-Regular.woff2") format("woff2"), url("../fonts/ChakraPetch-Regular.woff") format("woff");
+	font-weight: 400;
+	font-style: normal;
+	font-display: swap;
+}
+@font-face {
+	font-family: "Chakra Petch";
+	src: url("../fonts/ChakraPetch-Italic.woff2") format("woff2"), url("../fonts/ChakraPetch-Italic.woff") format("woff");
+	font-weight: 400;
+	font-style: italic;
+	font-display: swap;
+}
+@font-face {
+	font-family: "Chakra Petch";
+	src: url("../fonts/ChakraPetch-Bold.woff2") format("woff2"), url("../fonts/ChakraPetch-Bold.woff") format("woff");
+	font-weight: 700;
+	font-style: normal;
+	font-display: swap;
+}
+
+body {
+	font-family: "Chakra Petch", sans-serif;
+	font-size: 18px;
+}
+
+.header{
+	font-size: 30px;
+	color: rgb(119, 0, 84);
+	font-weight: 700;
+	text-transform: uppercase;
+}
+
+.title {
+	font-family: "Kalam", cursive;
+	color: rgb(55, 11, 105);
+	font-size: 60px;
+	font-weight: 700;
+	text-transform: uppercase;
+	text-align: center;
+	text-shadow: 2px 2px 5px rgb(255, 206, 9), 4px 5px 25px rgb(202, 17, 177);
+}
+.text {
+	font-size: 22px;
+	color: darkblue;
+	letter-spacing: 3px;
+	line-height: 1.3;
+	text-shadow: 5px 5px 20px rgb(35, 17, 202);
+}
+
+img {
+	width: 80px;
+}
+.img {
+	width: 400px;
+}
+span {
+	color: rgb(6, 50, 226);
+	font-size: 24px;
+	text-decoration: underline;
+	font-weight: 700;
+	text-shadow: 1px 1px 7px #000;
+}
+
+.block {
+	text-align: center;
+}
+.sub-title {
+	font-family: "Kalam", cursive;
+	font-size: 50px;
+	font-weight: 700;
+	text-align: center;
+	word-spacing: 7px;
+	text-shadow: 2px 2px 3px rgb(247, 37, 195), 4px 4px 20px rgb(141, 255, 11);
+
+}
+.about-star {
+	color: rgb(148, 6, 117);
+	text-align: justify;
+	letter-spacing: 2px;
+	line-height: 1.5;
+}
+.about-formation {
+	color: rgb(15, 70, 189);
+	text-align: right;
+	line-height: 1.4;
+	text-shadow: 1px 1px 5px rgb(247, 0, 185);
+}
+.about-main-sequence {
+	font-style: italic;
+	letter-spacing: 3px;
+	color: rgb(127, 47, 255);
+	line-height: 1.5;
+}
+.about-sequence {
+	font-weight: 700;
+	color: rgb(1, 46, 104);
+	letter-spacing: 2px;
+	line-height: 1.4;
+}
+.list {
+	line-height: 1.2;
+	text-transform: capitalize;
+	letter-spacing: 2px;
+}
+
+.list-item {
+	color: rgb(6, 176, 255);
+	text-decoration: underline;
+	text-indent: 45px;
+
+}
+ul > li {
+	color: hotpink;
+	text-indent: 90px;
+}
+
+.footer {
+	font-size: 30px;
+	font-weight: 700;
+	color: rgb(15, 70, 189);
+	text-transform: uppercase;
+	text-align: center;
+
+}
